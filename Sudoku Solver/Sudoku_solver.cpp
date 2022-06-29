@@ -370,17 +370,25 @@ int main()
     solve(arr);
     if (count == 0)
     {
+        cout<<"SOLVED!"<<endl;
         print_all(arr);
+        
+        
         cout << endl;
+        // print_s(arr);
     }
     else
     {
-        print_all(arr);
-        cout << endl;
         cout<<"NOT SOLVED"<<endl;
+        // print_s(arr);
+        
+        cout << endl;
+        // print_all(arr);
+        // cout << endl;
+        
     }
 
-    print_s(arr);
+    
 
     return 0;
 }
